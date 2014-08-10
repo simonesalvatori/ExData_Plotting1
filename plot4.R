@@ -11,8 +11,7 @@ with(exData, {
         # I plot
         plot(DateTime, Global_active_power, xlab="", ylab="Global Active Power", type="l")
         # II plot
-        plot(DateTime, Voltage, xlab="datetime", ylab="Voltage", type="l")
-        
+        plot(DateTime, Voltage, xlab="datetime", ylab="Voltage", type="l") 
         # III plot
         plot(DateTime, Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
         lines(DateTime, Sub_metering_2, type="l", col="red")

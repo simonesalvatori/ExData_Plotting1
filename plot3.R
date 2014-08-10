@@ -1,5 +1,7 @@
 source('get_data.R')
+exData <- get_data()
 
+# graphic device
 png(filename = "plot3.png", width = 480, height = 480, units = "px")
 
 plot(exData$DateTime, exData$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
